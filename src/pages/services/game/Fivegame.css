@@ -1,0 +1,120 @@
+.liveOpsText p.liveOpsText-head {
+    color: #FF0A04;
+    font-family: 'Proxima-Bold', sans-serif;
+    font-size: 30px;
+    
+    margin-bottom: 20px;
+}
+
+.liveOpsText p {
+    text-align: justify;
+}
+
+.liveOpsText p.liveOpsText-head::after {
+    content: '';
+    border-bottom: 3px solid black;
+    width: 30px;
+    margin-left: 3rem;
+    display: block;
+}
+
+.liveOpsText p.liveOpsText-sub {
+    color: #1F1F24;
+    opacity: 0.7;
+    font-family: 'Proxima-regular', sans-serif;
+    font-weight: normal;
+    font-size: 1.1rem;
+   
+}
+
+.fivegame-main {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.liveOpsText p span.spacer {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.liveOpsText-image1 {
+    margin-top: 2rem;
+}
+
+.portText p.portText-head {
+    color: #FF0A04;
+    font-family: 'Proxima-Bold', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px
+}
+
+.portText p {
+    text-align: justify;
+}
+
+.portText {
+    margin-top: 2rem;
+}
+
+.portText p.portText-sub  {
+    color: #1F1F24;
+    opacity: 0.7;
+    font-family: 'Proxima-regular', sans-serif;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+.portText p.portText-head::after {
+    content: '';
+    border-bottom: 2px solid black;
+    display: block;
+    width: 30px;
+    margin-left: 3rem;
+
+}
+
+.portText-image2 {
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 960px) {
+    .fivegame-main {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+    .liveOpsText p span.spacer {
+        margin-left: 0rem;
+        margin-right: 0.5rem;
+    }
+    .liveOpsText-img1 {
+        height: 10rem;
+        width: 15rem;
+    }
+    .liveOpsText p {
+        text-align: center;
+    }
+    .liveOpsText p.liveOpsText-sub {
+        font-size: 1.1rem;
+    }
+    .liveOpsText p.liveOpsText-head::after {
+        margin: 0 auto;
+    }
+    .portText-image2 .portText-img2 {
+        height: 10rem;
+        width: 15rem;
+    }
+    .portText p {
+        text-align: center;
+    }
+    .portText p.portText-head::after {
+        margin: 0 auto;
+    }
+
+    .portText p.portText-head + p {
+        font-size: 1.2rem;
+        
+    }
+
+
+
+
+} 

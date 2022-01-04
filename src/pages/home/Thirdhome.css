@@ -1,0 +1,173 @@
+.Thirdhome-main {
+    position: relative;
+}
+
+
+.third-main-sub  {
+    position: absolute;
+    top:20%;
+    left:20%;
+}
+
+.third-sub1 .ts1 {
+    color: #fff;
+    font-size: 5rem;
+    font-family: Nunito-sans;
+    line-height: 1;
+    
+}
+
+.third-sub1 .ts2 {
+    color: #EE6E03;
+    font-size: 125px;
+    font-family: Nunito-sans;
+    line-height: 1;
+}
+
+
+.third-sub1 .ts3 {
+
+    color: #fff;
+    font-family: Proxima-regular;
+    font-size: 24px;
+    /* line-height: 142px; */
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding: 30px 0px;
+
+}
+
+.third-button {
+    background: transparent;
+    color: #EE6E03;
+    border: 1px solid #EE6E03;
+    
+    padding: 13px;
+    letter-spacing: 2px;
+    position: absolute;
+    top:95%;
+    left: 37%;
+
+
+}
+
+.mobile-ts3 {
+    display: none;
+}
+
+
+.thirdhome-main2 {
+    margin-left: 5rem;
+    position: relative;
+}
+.thirdhome-main2-p {
+    margin-top: 3rem;
+}
+
+
+
+.thirdhome-main2-p .camp1 {
+    color: #EE6E03;
+    font-size: 3rem;
+     
+}
+
+.thirdhome-main2-p p {
+    color: black;
+    line-height: 1.2rem;
+
+}
+
+.thirdhome-main2-p .camp2 {
+    color: black;
+    font-size: 3rem;
+}
+.thirdhome-main2-p .camp3 {
+    font-size: 2rem;
+} 
+.thirdhome-main2-p p:last-child {
+   
+    font-family: Nunito-regular;
+    padding-left: 8px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.third-map {
+    display: flex;
+    justify-content: end;
+    margin-top: -3rem;
+}
+
+.third-map .third-map-image {
+    width: 90%;
+    height: 90%;
+
+}
+
+.third-map-but {
+
+    color: #EE6E03;
+    border: 1px solid #EE6E03;
+    /* margin: 3%; */
+    border-radius: 0px;
+    width: unset;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    margin-top: -12rem;
+    position: absolute;
+    margin-left: 10rem;
+    background-color: none!important;
+
+}
+
+
+
+@media only screen and  (max-width:960px) {
+
+    .Thirdhome-main {
+        margin-top: 2rem;
+    }
+
+
+    .third-sub1 .ts1, .third-sub1 .ts2, .third-sub1 .ts3 {
+        font-size: 1rem;
+        line-height: 0.2rem;
+    }
+
+    .third-sub1 .ts2 {
+        font-size: 1.5rem;
+    }
+
+    .third-main-sub  {
+        position: absolute;
+        top:20%;
+        left:10%;
+    }
+
+    .third-img img {
+        height: 16rem;
+    }
+   .ths-img {
+       height: 10rem;
+       margin-top: 2rem;
+
+   }
+   .third-sub1 .ts3 {
+       display: none;
+   }
+   .mobile-ts3 {
+       display: block;
+   }
+
+   .third-button {
+    padding: 8px;
+    left: 10%;
+    font-size: 0.7rem;
+
+   }
+   .thirdhome-main2 {
+       display: none;
+   }
+
+
+}

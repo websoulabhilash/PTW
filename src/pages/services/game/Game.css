@@ -1,0 +1,23 @@
+.secondgame {
+    margin-top: 18rem;
+}
+
+.fivegame {
+  margin-top: 3rem;
+}
+
+.fourgame {
+  margin-top: 2rem;
+}
+
+.sevengame {
+  margin-top: 3rem;
+}
+
+
+
+@media only screen and (max-width: 960px) {
+    .secondgame {
+      margin-top: 5rem;
+    }
+  }

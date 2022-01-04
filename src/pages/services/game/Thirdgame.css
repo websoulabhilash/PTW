@@ -1,0 +1,66 @@
+.platformSection {
+    margin-top: 4rem;
+    
+}
+
+.platformHead .head {
+    color: #FF0A04;
+    font-family: 'Proxima-Bold', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+
+/* .plat1, .plat2,.plat3,.plat4,.plat5,.plat6 {
+    border: 2px solid red ;
+} */
+
+/* /* .plat2, .plat4, .plat6 {
+    margin-left: 2rem;
+}
+
+*/
+
+.pmain-s1 ,.pmain-s2,.pmain-s3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.platformSection {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.platformSection p {
+    color: #FF0A04;
+    
+}
+.platformSection1 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+
+@media only screen and (max-width: 960px) {
+    .platformSection {
+
+        padding-left: 0rem;
+        padding-right: 0rem;
+      
+    }
+
+    .platformSection1 {
+
+        padding-left: 0rem;
+        padding-right: 0rem;
+      
+    }
+    .pmain-s1 ,.pmain-s2,.pmain-s3{
+        display: flex;
+        justify-content:space-between;
+    }
+    
+  }

@@ -1,0 +1,165 @@
+
+
+
+.secondhome-sub2 {
+    text-align: justify;
+    margin-top: 3rem;
+    width: 70%;
+}
+
+.secondhome-sub2 .secondhome-sub-sub {
+    display: flex;
+}
+
+.secondhome-sub2 p{
+    color: black;
+
+}
+
+.secondhome-sub-sub> div {
+    margin-left: 2rem;
+}
+
+.secondhome-sub-sub div:first-child {
+    margin-left: 0rem;
+}
+.secondhome-sub2 .shs1 {
+    color: #2B2C3A;
+    font-family: Proxima-Bold;
+    font-size:2.5rem;
+    letter-spacing: 0;
+    line-height: 2.4rem;
+
+    
+
+}
+
+.secondhome-sub2 .shs2 {
+
+    font-family: Proxima-regular;
+    letter-spacing: 1px;
+    color: #2D2D2D;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    
+
+}
+
+.secondhome-sub-sub span{
+    color: #EE6E03;
+    font-size: 3rem;
+
+}
+
+.second-home-button {
+    color: #EE6E03;
+    border: 1px solid #EE6E03 !important;
+    font-family: Proxima-regular;
+    letter-spacing: 2px;
+    padding: 15px;
+    border-radius: unset;
+    transition: .2s ease;
+}
+
+.mobile-secondhome {
+    display: none;
+}
+
+
+.mobile-secondhome-sub1 {
+    display: none;
+}
+.mobile-secondhome-sub-sub {
+    display: none;
+}
+
+@media only screen and (max-width:960px) {
+
+
+    .mobile-secondhome {
+        display: block;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .mobile-secondhome-sub1 {
+        display: block;
+    }
+    .mobile-secondhome-sub-sub {
+        display: block;
+    }
+    
+    .mobile-secondhome .mobile-shs1 {
+        text-align: center;
+    }
+
+    .mobile-secondhome  .mobile-shs2 {
+        text-align: center;
+    }
+
+    .secondhome-main {
+        display: none;
+    }
+    
+    .mobile-secondhome-sub1 .mobile-shs1 {
+
+    color: #2B2C3A;
+    font-family: Proxima-Bold;
+    font-size:1.2rem;
+    letter-spacing: 0;
+    line-height: 1.4rem;
+    width: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    }
+
+    .mobile-shs2 {
+
+        font-family: Proxima-regular;
+        letter-spacing: 1px;
+        color: #2D2D2D;
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+    .mobile-secondhome-sub-sub {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3rem;
+    }
+    .mobile-secondhome-sub-sub span {
+        color: #EE6E03;
+        font-size: 1.5rem;
+
+    }
+    .mobile-secondhome-sub-sub p {
+        color: black;
+        margin-top: 0.5rem;
+        text-align: justify;
+        font-size: 0.6rem;
+    }
+    .mobile-secondhome-sub1 {
+        padding-left: 1.5rem;
+    }
+    .mobile-second-home-button {
+        color: #EE6E03;
+    border: 1px solid #EE6E03 !important;
+    font-family: Proxima-regular;
+    letter-spacing: 2px;
+    padding: 7px;
+    border-radius: unset;
+    transition: .2s ease;
+    font-size: 0.8rem;
+
+    }
+    .mobile-second-btn {
+        margin: 0 auto;
+    }
+
+
+}

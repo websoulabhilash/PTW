@@ -1,0 +1,209 @@
+.sevengame-mainkk .sev-imgkk {
+    width: 9rem;
+    height: 9rem;
+}
+
+.seven-img1kk, .seven-img2kk,.seven-img3kk {
+    display: flex;
+    margin-left: 2rem;
+    
+}
+
+.squarekk .squkk {
+    height: 7rem;
+    width: 30rem;
+    position: relative;
+    margin-top: -11rem;
+    margin-left: -3rem;
+
+}
+
+.sevengame-mainkk .sev-textkk {
+    margin-top: 3rem;
+    padding-left: 2rem;
+    text-align: justify;
+}
+
+.sevengame-headkk h1 {
+    text-align: center;
+    color:#FF0A04;
+    font-size: 3.5rem;
+}
+
+.seven-buttonkk .read-buttonkk {
+
+    text-decoration: none;
+    padding: 10px;
+    
+    /* position: relative; */
+    color: #FF0A04;
+    letter-spacing: unset;
+    font-size: 13px;
+    
+    
+    
+
+}
+
+.seven-buttonkk {
+    margin-top: 2rem;
+
+}
+
+
+.square1kk .squ1kk {
+    height: 7.5rem;
+    width: 7.5rem;
+    margin-top: -4.5rem;
+    
+    
+}
+
+
+
+
+
+.seven-buttonkk .read-buttonkk:hover {
+
+    background: #FF0A04;
+    color: white;
+    text-decoration: none;
+}
+
+.sevengame-mobilemainkk {
+    display: none;
+}
+
+.seven-mobile-buttonkk {
+    display: none;
+}
+.mobile-square1kk {
+    display: none;
+}
+
+.sevengame-mainkk{
+    display: block;
+}
+
+
+
+@media only screen and (max-width:960px) {
+
+    .square1kk {
+        display: none;
+    }
+    .sevengame-mainkk {
+        display: none;
+    }
+
+    .mobile-subkk {
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 2rem;
+        
+        
+    }
+ 
+
+    .mobile-subkk::-webkit-scrollbar {
+        display: none;
+      }
+      
+
+    .mobile-sub-headkk {
+        display: flex;
+        
+    }
+
+    .sevengame-mobilemainkk {
+        display: block;
+    }
+
+    .mobile-square1kk {
+        display: block;
+    }
+    .sevengame-mobilemainkk .sev-mob-img1kk {
+        max-height: 6rem;
+        max-width: 6rem;
+    
+    }
+    .mobile-subkk {
+        padding-left: 1rem;
+    }
+    .mobile-sub-s1kk .sev-mobile-textkk {
+        margin-left: 2rem;
+    }
+
+    .mobile-squarekk .mobile-squkk {
+        max-height: 8rem;
+       max-width: 17rem;
+        margin-top: -12rem;
+        margin-left: 0.6rem;
+
+    }
+
+    .mobile-sub-s1kk .sev-mobile-textkk {
+        font-size: 0.8rem;
+    }
+
+    .mobile-sub-s1kk {
+        margin-left: 1.5rem;
+    }
+
+    .sevengame-headkk h1 {
+        font-size: 2rem;
+        
+    }
+    .seven-buttonkk {
+        display: none;
+    }
+    .square1kk {
+        display: none;
+    }
+    .seven-mobile-buttonkk {
+        display: block;
+        
+    
+    }
+
+    .seven-mobile-buttonkk .read-mobile-buttonkk {
+
+        text-decoration: none;
+        padding: 10px;
+        
+        /* position: relative; */
+        color: #FF0A04;
+        letter-spacing: unset;
+        font-size: 13px;
+    }
+    .mobile-square1 .mobile-squ1 {
+        height: 7.5rem;
+        width: 7.5rem;
+        margin-top: -4.5rem;
+        
+        
+    }
+
+    .mobile-squarekk {
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+    .mobile-subkk p {
+        color: black;
+    }
+
+    .mobile-square1kk .mobile-squkk1 {
+        height: 5rem;
+        width: 7rem;
+        margin-top: -3.5rem;
+        opacity: 1;
+    }
+
+    .sevengame-mobilemainkk {
+        margin-top: 5rem;
+    }
+    
+    
+   
+
+}

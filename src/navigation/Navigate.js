@@ -2,6 +2,7 @@ import React from "react";
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 
 import Header from '../components/header/Header';
+import  Header1  from "../components/header/Header1";
 import Footer from '../components/footer/Footer';
 import Home from '../pages/home/Home';
 import News from '../pages/news/News';
@@ -18,6 +19,8 @@ import Player from '../pages/services/player/Player';
 import Localization from '../pages/services/localization/Localization';
 import Local from '../pages/services/localqa/Localqa';
 import Voice from '../pages/services/voice/Voice';
+import { ThemeProvider } from '@mui/material/styles';
+import themess from "../components/header/themess";
 
 
 
@@ -26,7 +29,10 @@ export default function Navigate() {
     return (
       <Router>
               <div>
-             <Header/>
+                <ThemeProvider theme= {themess}>
+                <Header1/>
+                </ThemeProvider>
+             
              </div>
         <div>
         <Switch>
